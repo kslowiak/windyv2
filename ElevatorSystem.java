@@ -7,7 +7,7 @@ public class ElevatorSystem {
     private List<Elevator> elevators;
     private List<Request> requests;
 
-    public ElevatorSystem(int numElevators) {
+    public ElevatorSystem(int numElevators) { //creation of elevators
         elevators = new ArrayList<>();
         for (int i = 0; i < numElevators; i++) {
             elevators.add(new Elevator(i));
@@ -29,7 +29,7 @@ public class ElevatorSystem {
     }
 
     public void step() {
-        // Simple FCFS scheduling
+
         if (!requests.isEmpty()) {
             //for (Request request : requests) {
             Request request = requests.get(0);
