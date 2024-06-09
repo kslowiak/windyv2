@@ -39,9 +39,4 @@ Dodatkowo pojawiają się informacje o przyjęciu danego wezwania przez windę o
 Przy niektórych operacjach występuje także dopiska "additional passanger". Pojawia się ona w przypadku gdy dana winda operuje więcej niż jedno zgłoszenie.
 Wezwania na piętro docelowe z wewnątrz windy mogą być obsługiwane przez metodę move() znajdującą się w klasie ElevatorSystem.
 
-## Instalacja
-Aby uruchomić projekt, musisz mieć zainstalowane środowisko Java. Następnie sklonuj repozytorium i skompiluj projekt:
-```sh
-git clone https://github.com/twoje-repo/elevator-system.git
-cd elevator-system
-javac ElevatorSystem.java
+
